@@ -8,7 +8,8 @@ The availability element extends the full width of the card, with a dark grey ba
 
 body {
   font-size: 100%
-  margin: 2.5% 0 2.5% 0%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+  width: 100%;
 }
 
 #cardTitle {
@@ -26,8 +27,8 @@ body {
 #availability {
   display: block;
   padding: 5px 5px 5px 5px;
-  margin: 0;
-  background: darkgrey;
+  margin: 0
+  background-color: darkgrey;
   color: yellow;
 }
 
@@ -35,7 +36,8 @@ body {
   width: 30%;
   border: 1px solid lightblue;
   display: inline-block;
-  margin-right: .75%;
+  margin-left: 2.5;
+  margin-right: 2.5;
   padding-bottom: 15px;
   float: left;
 }
@@ -67,6 +69,12 @@ body {
 .price {
   font-weight: bold;
   padding: 0  15px; 
+}
+
+.footer {
+  clear:left;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 h1 {
